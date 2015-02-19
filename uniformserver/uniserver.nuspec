@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>uniserver</id>
+		<title>Uniform Server</title>
+		<version>11.7.1</version>
+		<authors>The Uniform Server Development</authors>
+		<owners>Harshmage</owners>
+		<summary>Apache, MySQL, and PHP in one package.</summary>
+		<description>The Uniform Server is a lightweight server solution for running a web server under the WindowsOS. Less than 10MiB, it includes the latest versions of Apache2, Perl5, PHP5, MySQL5, phpMyAdmin and more. No installation required! No registry dust! Just unpack and fire up!</description>
+		<projectUrl>https://github.com/Harshmage/chocolatey-packages</projectUrl>
+		<tags>server stack wamp php perl mysql apache</tags>
+		<copyright></copyright>
+		<licenseUrl>http://en.wikipedia.org/wiki/BSD_licenses</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/Harshmage/chocolatey-packages/master/icons/uniserver.png</iconUrl>
+		<!-- <dependencies>
+			<dependency id='' />
+		</dependencies> -->
+		<releaseNotes></releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
